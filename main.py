@@ -25,6 +25,5 @@ def stable_marriage(n, boy_preferences, girl_preferences):
             del(boy_to_girl[boy])
           else:
             del(boy_to_girl[current_boy])
-
-  return boy_to_girl
-
+  
+  return list(boy_to_girl.items())
